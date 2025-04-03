@@ -9,7 +9,7 @@ body {
   line-height: 164%;
 }
 
-.img .video .iframe {
+img, video, iframe {
   display: block;
   max-width: 100%;
 }
@@ -247,6 +247,7 @@ body {
   .offer__title {
     line-height: 1;
   }
+
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
